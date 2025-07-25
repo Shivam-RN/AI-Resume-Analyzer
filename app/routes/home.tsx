@@ -1,10 +1,10 @@
 import Navbar from "~/components/Navbar";
 import type { Route } from "./+types/home";
 import ResumeCard from "~/components/ResumeCard";
-import { resumes } from "constants";
 import { useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 import { useEffect } from "react";
+import { resumes } from "../../constants";
 
 export function meta({}: Route.MetaArgs) {
   return [
